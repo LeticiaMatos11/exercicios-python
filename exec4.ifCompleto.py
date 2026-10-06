@@ -6,3 +6,4 @@ else:
   print("❌ Acessso negado. O candidato deve ter pelo menos 18 anos.")
   
 
+
