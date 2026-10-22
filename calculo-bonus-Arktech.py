@@ -16,7 +16,7 @@ while True:
     print("\n--- NOVO REGISTRO ---")
 
     # O .strip() remove espaços em branco digitados sem querer
-    nome = input("Nome compelto (ou digite '0' para sair): ").strip()
+    nome = input("Nome completo (ou digite '0' para sair): ").strip()
     if nome == '0':
         print("\n Encerrando o painel bônus. Bom trabalho!")
         break
@@ -41,5 +41,3 @@ while True:
 
     except ValueError:
         print("\n ERRO SINTAXE:")
-
-"""
